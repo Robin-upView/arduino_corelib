@@ -87,13 +87,13 @@
           <incDir>
             <pElem>/usr/local/arduino1.0/arduino/cores/arduino</pElem>
           </incDir>
-          <commandLine>-Os -Wall -ffunction-sections -fdata-sections -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=100</commandLine>
+          <commandLine>-Wall -fno-exceptions -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -MMD -DUSB_VID=null -DUSB_PID=null -DARDUINO=105</commandLine>
         </cTool>
         <ccTool>
           <incDir>
             <pElem>/usr/local/arduino1.0/arduino/cores/arduino</pElem>
           </incDir>
-          <commandLine>-Os -Wall -ffunction-sections -fdata-sections -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=100</commandLine>
+          <commandLine>-Wall -fno-exceptions -ffunction-sections -fdata-sections -mmcu=atmega2560 -DF_CPU=16000000L -MMD -DUSB_VID=null -DUSB_PID=null -DARDUINO=105</commandLine>
         </ccTool>
         <archiverTool>
           <commandlineTool>avr-ar</commandlineTool>
