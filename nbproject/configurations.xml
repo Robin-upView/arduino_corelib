@@ -48,7 +48,6 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>/usr/local/arduino1.0/arduino/cores/arduino/robin_control_law.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -57,7 +56,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>robin_control_law.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -270,11 +268,6 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="/usr/local/arduino1.0/arduino/cores/arduino/robin_control_law.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="/usr/local/arduino1.0/arduino/cores/arduino/wiring.c"
             ex="false"
             tool="0"
@@ -304,8 +297,6 @@
             ex="false"
             tool="0"
             flavor2="0">
-      </item>
-      <item path="robin_control_law.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="3">
@@ -500,11 +491,6 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="/usr/local/arduino1.0/arduino/cores/arduino/robin_control_law.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="/usr/local/arduino1.0/arduino/cores/arduino/wiring.c"
             ex="false"
             tool="0"
@@ -534,8 +520,6 @@
             ex="false"
             tool="0"
             flavor2="0">
-      </item>
-      <item path="robin_control_law.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

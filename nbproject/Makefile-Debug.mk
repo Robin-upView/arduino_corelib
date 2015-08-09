@@ -55,8 +55,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/2072938000/wiring_analog.o \
 	${OBJECTDIR}/_ext/2072938000/wiring_digital.o \
 	${OBJECTDIR}/_ext/2072938000/wiring_pulse.o \
-	${OBJECTDIR}/_ext/2072938000/wiring_shift.o \
-	${OBJECTDIR}/robin_control_law.o
+	${OBJECTDIR}/_ext/2072938000/wiring_shift.o
 
 
 # C Compiler Flags
@@ -184,11 +183,6 @@ ${OBJECTDIR}/_ext/2072938000/wiring_shift.o: nbproject/Makefile-${CND_CONF}.mk /
 	${MKDIR} -p ${OBJECTDIR}/_ext/2072938000
 	${RM} "$@.d"
 	$(COMPILE.c) -g -I/usr/local/arduino1.0/arduino/cores/arduino -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2072938000/wiring_shift.o /usr/local/arduino1.0/arduino/cores/arduino/wiring_shift.c
-
-${OBJECTDIR}/robin_control_law.o: nbproject/Makefile-${CND_CONF}.mk robin_control_law.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -I/usr/local/arduino1.0/arduino/cores/arduino -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/robin_control_law.o robin_control_law.c
 
 # Subprojects
 .build-subprojects:
